@@ -24,7 +24,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote-theme: filbertphang/miniscule
+remote_theme: filbertphang/miniscule
 
 plugins:
   - jekyll-feed
