@@ -1,9 +1,16 @@
 .node-container {
     padding: $spacing-unit 0;
+    span {
+        color: $text-color-alt;
+        font-weight: 600;
+        margin-left: 8px + 48px + 16px + 18px + 13px;
+    }
+
     .timeline-flexbox {
         display: flex;
         align-items: center;
         margin-left: 8px;
+        padding: 8px 0px;
         .node {
             z-index: 2;
             height: 48px;
@@ -21,7 +28,7 @@
         }
 
         .triangle {
-            margin-left: $spacing-unit / 2;
+            margin-left: 16px;
             width: 0;
             height: 0;
             border-top: 12px solid transparent;
@@ -39,14 +46,13 @@
         }
     }
     .content {
-        padding-top: $spacing-unit / 2;
-        padding-left: 48px + ($spacing-unit / 2) + 8px + 18px + 8px;
+        padding-left: 8px + 48px + 16px + 18px + 13px;
     }
 }
 
 .timeline-container {
     .timeline {
-        margin-left: 22px;
+        margin: 0px 22px;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
         width: 20px;

@@ -8,6 +8,7 @@ $emphasis-color: $brand-color-dark;
 $site-title-color: $brand-color-dark !default;
 
 $text-color: #003d75 !default;
+$text-color-alt: #77a9cf;
 $background-color: #ffffeb !default;
 $code-background-color: #ffece1 !default;
 
@@ -15,9 +16,11 @@ $link-base-color: #005fb8 !default;
 $link-visited-color: darken($link-base-color, 15%) !default;
 $link-hover-color: $brand-color-dark !default;
 
-$border-color-01: $brand-color-light !default;
+// $border-color-01: $brand-color-light !default;
 $border-color-02: lighten($brand-color, 35%) !default;
-$border-color-03: $brand-color-dark !default;
+$border-color-01: $text-color;
+$border-color-03: $text-color;
+$border-color-04: $brand-color-dark !default;
 
 $table-text-color: lighten($text-color, 18%) !default;
 $table-zebra-color: lighten($brand-color, 46%) !default;
