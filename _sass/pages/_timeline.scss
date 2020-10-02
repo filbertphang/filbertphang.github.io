@@ -11,6 +11,12 @@
             min-width: 48px;
             border-radius: 50%;
             background-color: $brand-color-dark;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-icon {
+                transform: scale(1.3);
+            }
         }
 
         .triangle {
@@ -39,7 +45,6 @@
 
 .timeline-container {
     .timeline {
-        // margin-top: $spacing-unit * 1.5;
         margin-left: 14px;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
