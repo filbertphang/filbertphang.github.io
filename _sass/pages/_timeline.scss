@@ -39,14 +39,18 @@
         .title {
             padding: 5px 13px;
             background-color: $brand-color-light;
-            border-radius: 8px;
+            border-radius: 10px;
             h2 {
                 margin: 0;
             }
         }
     }
     .content {
-        padding-left: 8px + 48px + 16px + 18px + 13px;
+        padding-left: 48px + 16px + 18px + 13px;
+        em {
+            font-weight: 700;
+            font-style: normal;
+        }
     }
 }
 
