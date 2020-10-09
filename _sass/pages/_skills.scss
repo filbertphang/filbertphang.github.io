@@ -1,0 +1,102 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        color: $text-color-alt;
+        font-weight: 600;
+        margin-left: 16px;
+        margin-bottom: 8px;
+    }
+
+    .column {
+        .accordion-header {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.15s ease;
+            border-radius: 16px;
+
+            padding: 16px;
+
+            .right {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+
+                .rating {
+                    padding: 4px 8px;
+                    border-radius: 8px;
+                    background-color: $brand-color;
+                    color: darken($brand-color-dark, 15%);
+                }
+            }
+            .dropdown {
+                margin-right: 8px;
+                height: 32px;
+                width: 32px;
+                transition: transform 0.25s ease-out;
+                display: none;
+
+                @media screen and (min-width: $on-large) {
+                    display: block;
+                }
+            }
+            h3 {
+                margin-top: 0;
+                margin-bottom: 0;
+                font-weight: 600;
+                font-size: 1.25rem;
+                // transform: scale(0.8);
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                ion-icon:not(.dropdown) {
+                    padding-right: 16px;
+                }
+
+                @media screen and (min-width: $on-large) {
+                    font-size: 1.375rem;
+                }
+            }
+
+            &:hover {
+                background-color: darken($brand-color, 4%);
+            }
+        }
+
+        .active {
+            &.accordion-header {
+                background-color: $brand-color;
+                .dropdown {
+                    transform: rotate(90deg);
+                }
+
+                &:hover {
+                    background-color: darken($brand-color, 4%);
+                }
+            }
+            &.accordion-content {
+                margin: 16px 0;
+            }
+        }
+
+        .accordion-content {
+            box-sizing: border-box;
+            max-height: 0px;
+            overflow: hidden;
+            padding: 0 16px;
+            transition: all 0.2s ease-out;
+
+            em {
+                font-weight: 700;
+                font-style: normal;
+            }
+        }
+    }
+}

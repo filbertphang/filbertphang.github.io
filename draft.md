@@ -41,6 +41,7 @@ https://brittanychiang.com/ (panels and jump on hover   )
 
 
 ### PROFICIENCIES
+#### languages
 - python
     - proficient in using scientific python tools like numpy, pandas, scipy, matplotlib
     - also have worked with common ML libraries, primarily tensorflow and keras
@@ -52,5 +53,10 @@ https://brittanychiang.com/ (panels and jump on hover   )
 - html/css/js
     - have slight experience in using these tools to make my own website
 
+#### tools
+- gcp
+- tensorflow
 - git
+- CLI
+- 
 - 90+ wpm typer
