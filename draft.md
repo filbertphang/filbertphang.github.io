@@ -1,6 +1,15 @@
 ---
 published: false
 ---
+# TODO
+try a footer like: https://zyro.com/preview/brooke
+a hover effect like: https://andrevv.com/
+
+# INSPO
+http://www.pascalvangemert.nl/#/projects
+https://diogotc.com/ (landing page design + social link tooltips)
+http://web.stanford.edu/~swkang73/ (very similar structure)
+https://brittanychiang.com/ (panels and jump on hover   )
 
 # RESUME
 
