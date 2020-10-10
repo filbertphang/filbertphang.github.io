@@ -1,15 +1,17 @@
 ---
 published: false
 ---
-# TODO
-try a footer like: https://zyro.com/preview/brooke
-a hover effect like: https://andrevv.com/
+
+
 
 # INSPO
 http://www.pascalvangemert.nl/#/projects
 https://diogotc.com/ (landing page design + social link tooltips)
 http://web.stanford.edu/~swkang73/ (very similar structure)
-https://brittanychiang.com/ (panels and jump on hover   )
+https://brittanychiang.com/ (panels and jump on hover)
+https://zyro.com/preview/brooke (footer)
+https://www.upstatement.com/work/moms-demand-action/ (very similar color scheme)
+https://www.simform.com/best-frontend-frameworks/(underline emphasis effect)
 
 # RESUME
 
@@ -58,5 +60,5 @@ https://brittanychiang.com/ (panels and jump on hover   )
 - tensorflow
 - git
 - CLI
-- 
+
 - 90+ wpm typer
