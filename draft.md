@@ -1,9 +1,6 @@
 ---
 published: false
 ---
-
-
-
 # INSPO
 http://www.pascalvangemert.nl/#/projects
 https://diogotc.com/ (landing page design + social link tooltips)

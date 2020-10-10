@@ -105,4 +105,21 @@
             }
         }
     }
+
+    .soft-skills {
+        display: flex;
+        flex-wrap: wrap;
+        .skill-item {
+            padding: 8px 12px;
+            margin: 8px;
+            background-color: $brand-color;
+            height: 24px;
+            border-radius: 20px;
+            transition: background-color 0.3s ease-out;
+
+            &:hover {
+                background-color: lighten($brand-color-dark, 5%);
+            }
+        }
+    }
 }
