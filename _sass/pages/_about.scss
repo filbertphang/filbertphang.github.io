@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (min-width: $on-large) {
+        flex-direction: row;
+    }
+
+    .left {
+        order: 2;
+        @media screen and (min-width: $on-large) {
+            max-width: 28%;
+        }
+
+        span {
+            color: $text-color-alt;
+            font-weight: 600;
+        }
+    }
+
+    .right {
+        order: 1;
+        @media screen and (min-width: $on-large) {
+            max-width: 68%;
+        }
+
+        p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            padding-bottom: $spacing-unit / 2;
+            em {
+                font-style: normal;
+                font-weight: 400;
+                &.heavy {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
