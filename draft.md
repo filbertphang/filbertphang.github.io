@@ -1,6 +1,12 @@
 ---
 published: false
 ---
+
+# TODO
+- add custom scrollbar?
+- (miniscule) bold active segment on navbar for one-page
+- rework footer
+
 # INSPO
 http://www.pascalvangemert.nl/#/projects
 https://diogotc.com/ (landing page design + social link tooltips)

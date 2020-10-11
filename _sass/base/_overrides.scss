@@ -44,4 +44,44 @@ main {
             transform: translate(-50%, 0);
         }
     }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        a {
+            text-decoration: none;
+        }
+        .social-link {
+            position: relative;
+            padding: 0 4px;
+            transition: transform 0.1s linear;
+
+            i {
+                color: $text-color;
+            }
+
+            &:hover {
+                transform: translate(0px, -5px);
+                i {
+                    color: $brand-color-dark;
+                }
+                .tooltip {
+                    opacity: 90%;
+                    visibility: visible;
+                }
+            }
+
+            .tooltip {
+                font-size: $small-font-size;
+                max-width: unset;
+                top: 110%;
+                // transition-delay: 0.1s;
+            }
+
+            box-icon {
+                color: $brand-color;
+            }
+        }
+    }
 }

@@ -29,9 +29,22 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 miniscule:
   one_page_header: true
   social_links:
-    github: filbertphang
-    telegram: filbertphang
-    email: fillberth@gmail.com
+    - entry: 
+        label: filbertphang
+        link: https://github.com/filbertphang
+        icon: ri-github-fill
+    - entry: 
+        label: '@filbertphang'
+        link: https://t.me/filbertphang
+        icon: ri-telegram-fill
+    - entry: 
+        label: fillberth@gmail.com
+        link: mailto:fillberth@gmail.com
+        icon: ri-mail-fill
+    - entry: 
+        label: anethemax
+        link: https://open.spotify.com/user/anethemax
+        icon: ri-spotify-fill
 
 # Build settings
 markdown: kramdown
