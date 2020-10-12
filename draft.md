@@ -3,7 +3,6 @@ published: false
 ---
 
 # TODO
-- add custom scrollbar?
 
 # INSPO
 http://www.pascalvangemert.nl/#/projects
