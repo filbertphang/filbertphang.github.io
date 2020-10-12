@@ -3,12 +3,15 @@
 
 <div class="social">
     {% for elem in social %}
+    {% assign platform = elem.entry %}
+    <a href="{{ platform.link }}">
         <div class="social-link">
-            {% assign platform = elem.entry %}
-            <a href="{{ platform.link }}">
+            
                 <i class="{{ platform.icon }} ri-2x"></i></box-icon>
-            </a>
-            <span class="tooltip">{{ platform.label }}</span>
+                <span class="tooltip">{{ platform.label }}</span>
+            
+            
         </div>
+    </a>
     {% endfor %}
 </div>

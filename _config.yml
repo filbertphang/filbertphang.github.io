@@ -28,6 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # theme settings
 miniscule:
   one_page_header: true
+  custom_home_footer: true
   social_links:
     - entry: 
         label: filbertphang
