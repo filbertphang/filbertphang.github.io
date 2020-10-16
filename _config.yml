@@ -42,10 +42,10 @@ miniscule:
         label: fillberth@gmail.com
         link: mailto:fillberth@gmail.com
         icon: ri-mail-fill
-    - entry: 
-        label: anethemax
-        link: https://open.spotify.com/user/anethemax
-        icon: ri-spotify-fill
+    # - entry: 
+    #     label: anethemax
+    #     link: https://open.spotify.com/user/anethemax
+    #     icon: ri-spotify-fill
 
 # Build settings
 markdown: kramdown
