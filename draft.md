@@ -4,6 +4,42 @@ published: false
 
 # TODO
 
+# 2021 UPDATES
+> add cute pink shirt pic to right side of "about me"
+> update skills page with android studio, adobe XD, can even add premiere pro tbh
+> timeline:
+    > finish talking about NS
+        > best launcher crew, OSOM, nominated for NSF of the year
+        > created bms config tool (army c2 tactical systems wtv)
+        > digitised safety check, acclerate fmsn process, minimise human error, enable bty to achieve impressive timing
+        > can link to VES at DSTA
+    > DSTA
+        > VES @ DSTA 
+        > real work with agile development practices
+        > cycle of gather feedback -> mockup -> develop prototype -> showcase -> gather feedback
+        > work with adobe XD to make interactive mockups
+        > work with android studio without prior exprience to develop mobile app version of army c2 systems
+        > presented work at army forum (? whatever BMSWG is? discussion or wtv) / in front of many high ranking officers/personnel
+
+
+> write blog articles
+    > presenting well
+        > slide design tips
+        > know your shit, make sure everyone else knows you know your shit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # INSPO
 http://www.pascalvangemert.nl/#/projects
 https://diogotc.com/ (landing page design + social link tooltips)
