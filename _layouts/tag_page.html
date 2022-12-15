@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<header class="post-header">
+  <h1 class="post-title">All posts tagged with: {{ page.tag }}</h1>
+</header>
+
+<div>
+  {% assign posts = page.posts %} {%- if posts.size > 0 -%} {%- if
+  page.list_title -%}
+  <h2 class="post-list-heading">{{ page.list_title }}</h2>
+  {%- endif -%}
+  <ul class="post-list">
+    {%- assign date_format = site.miniscule.date_format | default: "%b %-d, %Y"
+    -%} {%- for post in posts limit:page.post-limit -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%} {% if page.post-limit and page.post-page-url %}
+  <h2>
+    <a class="view-all" href="{{ page.post-page-url | relative_url }}"
+      >View All</a
+    >
+  </h2>
+  {% endif %}
+</div>
+
+<br />
+<div>
+  <b>All tags:</b>
+  {% for tag in site.tags %}
+  <code><a class="tag-link" href="/tag/{{tag[0]}}">{{ tag[0] }}</a></code>
+  {%- endfor -%}
+</div>

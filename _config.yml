@@ -30,19 +30,19 @@ miniscule:
   one_page_header: true
   custom_home_footer: true
   social_links:
-    - entry: 
+    - entry:
         label: filbertphang
         link: https://github.com/filbertphang
         icon: ri-github-fill
-    - entry: 
-        label: '@filbertphang'
+    - entry:
+        label: "@filbertphang"
         link: https://t.me/filbertphang
         icon: ri-telegram-fill
-    - entry: 
+    - entry:
         label: fillberth@gmail.com
         link: mailto:fillberth@gmail.com
         icon: ri-mail-fill
-    # - entry: 
+    # - entry:
     #     label: anethemax
     #     link: https://open.spotify.com/user/anethemax
     #     icon: ri-spotify-fill
@@ -54,7 +54,7 @@ remote_theme: filbertphang/miniscule
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
-
+  - jekyll-tagging
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -66,3 +66,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# jekyll-tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
