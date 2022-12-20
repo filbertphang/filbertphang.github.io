@@ -1,0 +1,11 @@
+name: other proficiencies
+type: secondary
+skills:
+  - Regex
+  - Shell Scripting
+  - Apache Airflow
+  - Android Studio
+  - Figma / Adobe XD
+  - Premiere Pro
+  - Photoshop
+  - Illustrator

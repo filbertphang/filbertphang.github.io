@@ -44,9 +44,10 @@
                 margin-right: 8px;
                 height: 32px;
                 width: 32px;
+                font-size: 32px;
                 transition: transform 0.25s ease-out;
                 display: none;
-
+                
                 @media screen and (min-width: $on-large) {
                     display: block;
                 }
@@ -62,9 +63,11 @@
                 flex-direction: row;
                 align-items: center;
 
-                ion-icon:not(.dropdown) {
+                i:not(.dropdown) {
+                    font-size: 32px;
                     padding-right: 16px;
                 }
+                
 
                 @media screen and (min-width: $on-large) {
                     font-size: 1.375rem;

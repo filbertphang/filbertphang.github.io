@@ -1,0 +1,37 @@
+name: languages
+type: primary
+skills:
+  - logo: bxl-python
+    name: Python
+    rating: 3
+    content:
+      - Proficient in scientific computing packages like <em>numpy, scipy, panda, matplotlib</em>
+      - Have experience in building UIs with <em>Tkinter</em>
+
+  - logo: bxl-java
+    name: Java
+    rating: 2
+    content:
+      - Have experience using Java in <em>university-level coursework</em> (<em><a href="https://nusmods.com/modules/CS2030S">CS2030S</a></em>, <em><a href="https://nusmods.com/modules/CS2040S">CS2040S</a></em>)
+      - Familiar with key concepts in OOP like <em>inheritance</em>, <em>interfaces</em>, <em>serialization</em>, among others
+
+  - logo: bxl-c-plus-plus
+    name: C++
+    rating: 2
+    content:
+      - Learnt C++ from attempting <a href=""><em>Advent of Code 2022</em></a>
+      - Can comfortably use <em>C++ Standard Library</em> (with documentation)
+
+  - logo: bxs-data
+    name: SQL / PostgreSQL
+    rating: 3
+    content:
+      - Capable of formulating <em>complex queries</em> and working with Postgres <em>functions and triggers</em>
+
+  - logo: bxl-html5
+    name: HTML/CSS/JS
+    rating: 2
+    content:
+      - Skills were sufficient to build and customize a static site (<em>this site</em>) with <em>Jekyll</em>
+      - Familiar with <em>front-end frameworks</em> like <em>Bootstrap</em>, competent in styling with <em>Sass</em>
+      - Minor experience with <em>MVC frameworks</em> like <em>Rails</em> and <em>Django</em>

@@ -1,0 +1,30 @@
+name: tools and services
+type: primary
+skills:
+  - name: TensorFlow
+    logo: bx-chip
+    rating: 2
+    content:
+      - Proficient in <em>building, running, and evaluating</em> models in <em>TensorFlow</em>
+      - More familiar with the high-level <em>Keras API</em>
+
+  - name: Git
+    logo: bxl-git
+    rating: 2
+    content:
+      - Proficient in using standard <em>branch-commit-merge</em> workflow for personal projects
+      - Inexperienced with more complex history-rewriting procedures (e.g. <em>rebase</em>-heavy workflows)
+
+  - name: Google Cloud Platform
+    logo: bxl-google-cloud
+    rating: 2
+    content:
+      - Proficient in training models via <em>Colaboratory</em> hardware
+      - Have experience in deploying services using <em>Compute Engine, Cloud Storage, Cloud Functions,</em> and <em>Kubernetes Engine</em>
+
+  - name: Docker
+    logo: bxl-docker
+    rating: 2
+    content:
+      - Proficient in <em>creating, managing,</em> and <em>networking</em> with <em>containerized apps</em>
+      - Proficient in using <em>Docker Compose</em> to organize <em>multi-container</em> Docker applications
