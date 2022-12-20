@@ -33,19 +33,19 @@ miniscule:
     - entry:
         label: filbertphang
         link: https://github.com/filbertphang
-        icon: ri-github-fill
+        icon: bxl-github
     - entry:
         label: "@filbertphang"
         link: https://t.me/filbertphang
-        icon: ri-telegram-fill
+        icon: bxl-telegram
     - entry:
         label: fillberth@gmail.com
         link: mailto:fillberth@gmail.com
-        icon: ri-mail-fill
-    # - entry:
-    #     label: anethemax
-    #     link: https://open.spotify.com/user/anethemax
-    #     icon: ri-spotify-fill
+        icon: bxs-envelope
+    - entry:
+        label: filbertphang
+        link: https://www.linkedin.com/in/filbertphang/
+        icon: bxl-linkedin-square
 
 # Build settings
 markdown: kramdown
