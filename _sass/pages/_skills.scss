@@ -131,7 +131,7 @@
 // for feature 01-skills.html (currently in use)
 .skills-array {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     
     p {
         font-size: 1.5rem;

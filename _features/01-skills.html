@@ -3,10 +3,9 @@ title: Skills and Proficiencies
 ---
 
 <div class="skills-array">
-  <p>So far, I've worked with:</p>
   {% for skill_category_hash in site.data.skills %} {% assign skill_category =
   skill_category_hash[1] %} {% if skill_category.type == "primary" %}
-  <span>{{ skill_category.name | upcase }}</span>
+  </br>
   <div class="skill-icons">
     {% for skill in skill_category.skills %}
     <div class="skill-icon">
@@ -19,6 +18,7 @@ title: Skills and Proficiencies
     </div>
     {% endfor %}
   </div>
-  </br>
+  <span>{{ skill_category.name | upcase }}</span>
   {% endif %} {% endfor %}
+  <p>So far, I've worked with:</p>
 </div>
