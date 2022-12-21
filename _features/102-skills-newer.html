@@ -1,0 +1,57 @@
+---
+title: Skills and Proficiencies
+published: false
+---
+
+<div class="skills-container">
+  {% for skill_category_hash in site.data.skills %} {% assign skill_category =
+  skill_category_hash[1] %}
+  {% if skill_category.type == "primary" %}
+  <span>{{ skill_category.name | upcase }}</span>
+  {% for skill in skill_category.skills %}
+  <div class="column">
+    <div class="accordion-header">
+      <h3>
+        <i class="bx bxs-chevron-right dropdown"></i>
+        <i class="bx {{ skill.logo }} "></i>
+        {{ skill.name }}
+      </h3>
+      <div class="right">
+        <div class="rating">
+          {% for i in (1..3) %} {% if i <= skill.rating %}
+          <i class="bx bxs-star"></i>
+          {% else %}
+          <i class="bx bx-star"></i>
+          {% endif %} {% endfor %} {% if skill.rating == 3 %}
+          <span class="tooltip">Proficient</span>
+          {% elsif skill.rating == 2 %}
+          <span class="tooltip">Familiar</span>
+          {% else %}
+          <span class="tooltip">Fair</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="accordion-content">
+      <ul>
+        {% for point in skill.content %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %} {% endif %} </br> {% endfor %}
+  
+  
+  {% for skill_category_hash in site.data.skills %} {% assign skill_category =
+  skill_category_hash[1] %}
+  {% if skill_category.type == "secondary" %}
+  <span>{{ skill_category.name | upcase }}</span>
+  <div class="soft-skills">
+    {% for skill in skill_category.skills %}
+    <div class="skill-item">{{ skill }}</div>
+    {% endfor %}
+  </div>
+  </br>
+  {% endif %} {% endfor %}
+</div>

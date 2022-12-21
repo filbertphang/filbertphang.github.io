@@ -1,3 +1,4 @@
+// for feature 102-skills-newer.html (not in use)
 .skills-container {
     display: flex;
     flex-direction: column;
@@ -122,6 +123,96 @@
 
             &:hover {
                 background-color: lighten($brand-color-dark, 5%);
+            }
+        }
+    }
+}
+
+// for feature 01-skills.html (currently in use)
+.skills-array {
+    display: flex;
+    flex-direction: column;
+    
+    p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding-bottom: $spacing-unit / 2;
+        em {
+            font-style: normal;
+            font-weight: 400;
+            &.heavy {
+                font-weight: 700;
+            }
+        }
+    }
+    
+    span:not(.tooltip) {
+        color: $text-color-alt;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+         
+        .skill-icon {
+            @for $i from 1 through 10 {
+                &:nth-child(#{$i}) {
+                  z-index: #{10 - $i};
+                }
+             }
+            position: relative;
+            transition: transform 0.1s linear;
+            min-height: fit-content;
+            overflow-y: visible;
+            i {
+                position: relative;
+                font-size: 64px;
+            }
+            .svg {
+                position: relative;
+                min-width: 64px;
+                min-height: 64px;
+                max-width: 64px;
+                max-height: 64px;
+                filter: brightness(0) saturate(100%) invert(10%) sepia(62%) saturate(6975%) hue-rotate(196deg) brightness(89%) contrast(104%);
+                
+                &.airflow {
+                    scale: 70%;
+                }
+                &.xd {
+                    scale: 85%;
+                }
+                &.photoshop {
+                    scale: 85%;
+                }
+                &.illustrator {
+                    scale: 85%;
+                }
+                &.premiere {
+                    scale: 85%;
+                }
+            }
+            .tooltip {
+                max-width: unset;
+                top: 110%;
+                white-space: nowrap;
+                z-index: 20;
+            }
+            &:hover {
+                transform: translate(0px, -5px);
+                i {
+                    color: $brand-color-dark;
+                }
+                .tooltip{
+                    opacity: 90%;
+                    visibility: visible;
+                }
+                .svg {
+                    filter: brightness(0) saturate(100%) invert(83%) sepia(35%) saturate(2436%) hue-rotate(300deg) brightness(117%) contrast(106%); 
+                }
             }
         }
     }

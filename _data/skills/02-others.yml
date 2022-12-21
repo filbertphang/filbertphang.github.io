@@ -1,0 +1,21 @@
+name: Others
+type: primary
+skills:
+  - name: Figma
+    logo: bxl-figma
+
+  - name: XD
+    logo: xd
+    logo_type: svg
+
+  - name: Premiere Pro
+    logo: premiere
+    logo_type: svg
+
+  - name: Photoshop
+    logo: photoshop
+    logo_type: svg
+
+  - name: Illustrator
+    logo: illustrator
+    logo_type: svg
