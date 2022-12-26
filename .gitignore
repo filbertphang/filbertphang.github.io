@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 .jekyll-cache
 fp.github.io (linux).code-workspace
+.vscode/*
