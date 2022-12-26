@@ -3,22 +3,24 @@ title: Skills and Proficiencies
 ---
 
 <div class="skills-array">
-  {% for skill_category_hash in site.data.skills %} {% assign skill_category =
-  skill_category_hash[1] %} {% if skill_category.type == "primary" %}
-  </br>
-  <div class="skill-icons">
-    {% for skill in skill_category.skills %}
-    <div class="skill-icon">
-      {% if skill.logo_type == "svg" %}
-      <img class="svg {{ skill.logo }}" src="/assets/svg/{{ skill.logo }}.svg"></img>
-      {% else %}
-      <i class="bx {{ skill.logo }}"></i>
-      {% endif %}
-      <span class="tooltip">{{ skill.name }}</span>
-    </div>
-    {% endfor %}
-  </div>
-  <span>{{ skill_category.name | upcase }}</span>
-  {% endif %} {% endfor %}
+  {% for skill_category_hash in site.data.skills %}
+    {% assign skill_category = skill_category_hash[1] %}
+    {% if skill_category.type == "primary" %}
+      <br>
+      <div class="skill-icons">
+        {% for skill in skill_category.skills %}
+          <div class="skill-icon">
+            {% if skill.logo_type == "svg" %}
+              <img class="svg {{ skill.logo }}" src="/assets/svg/{{ skill.logo }}.svg">
+            {% else %}
+              <i class="bx {{ skill.logo }}"></i>
+            {% endif %}
+            <span class="tooltip">{{ skill.name }}</span>
+          </div>
+        {% endfor %}
+      </div>
+      <span>{{ skill_category.name | upcase }}</span>
+    {% endif %}
+  {% endfor %}
   <p>So far, I've worked with:</p>
 </div>
