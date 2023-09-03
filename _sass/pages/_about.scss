@@ -13,11 +13,11 @@
 
         &.highlight {
             background-color: $brand-color;
-            text-align: center;
+            text-align: left;
             padding: $spacing-unit / 2;
             border-radius: 16px;
             transition: all 0.15s ease;
-            
+
             &:hover {
                 // background-color: $brand-color-dark;
                 background-color: darken($brand-color, 4%);
