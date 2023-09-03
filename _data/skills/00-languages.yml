@@ -39,8 +39,8 @@ skills:
   - logo: bxl-css3
     name: CSS
 
-  - logo: bxl-javascript
-    name: JavaScript
+  - logo: bxl-typescript
+    name: TypeScript
 
   - logo: bxs-terminal
     name: Shell

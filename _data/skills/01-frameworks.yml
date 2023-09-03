@@ -1,0 +1,29 @@
+name: frameworks
+type: primary
+skills:
+  - name: FastAPI
+    logo: bx-cloud-lightning
+
+  - name: React
+    logo: bxl-react
+
+  - name: Next.js
+    logo: bxs-up-arrow
+
+  - name: PySpark
+    logo: bx-star
+
+  - name: NumPy
+    logo_type: svg
+    logo: numpy
+
+  - name: TensorFlow
+    logo: tensorflow
+    logo_type: svg
+    rating: 2
+    content:
+      - Proficient in <em>building, running, and evaluating</em> models in <em>TensorFlow Keras</em>
+      - More familiar with the high-level <em>Keras API</em>
+
+  - name: Android Studio
+    logo: bxl-android
